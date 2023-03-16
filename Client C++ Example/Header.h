@@ -53,7 +53,6 @@ void Responce(std::string responce)
 	}
 	else
 	{
-		std::string s2 = "el";
 		if (strstr(responce.c_str(), "UUID_")) {
 			std::vector<std::string> result = splitString(responce.c_str(), ':');
 			LoggedIn_UUID = result[0];
